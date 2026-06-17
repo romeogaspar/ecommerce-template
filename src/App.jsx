@@ -400,6 +400,12 @@ const styles = `
     .newsletter__form { flex-direction: column; }
   }
 
+
+  @media (max-width: 1024px) {
+    .nav__links, .nav__btn, .nav__cta { display: none !important; }
+    .nav__hamburger { display: flex !important; }
+  }
+
   @media (max-width: 640px) {
     .categories-grid { grid-template-columns: repeat(2, 1fr); }
     .products-grid { grid-template-columns: 1fr; }
