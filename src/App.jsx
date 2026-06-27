@@ -425,41 +425,172 @@ const categories = [
 ];
 
 const products = [
-  { name: "Premium Wireless Headphones", category: "Electronics", price: "$89", original: "$129", rating: "4.8", reviews: "2.4k", badge: "sale", img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80" },
-  { name: "Casual Linen Summer Dress", category: "Fashion", price: "$45", original: "$65", rating: "4.9", reviews: "1.8k", badge: "hot", img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&q=80" },
-  { name: "Minimalist Desk Lamp", category: "Home", price: "$35", original: null, rating: "4.7", reviews: "892", badge: "new", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" },
-  { name: "Vitamin C Glow Serum", category: "Beauty", price: "$28", original: "$45", rating: "4.9", reviews: "3.2k", badge: "sale", img: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&q=80" },
-  { name: "Running Sneakers Pro", category: "Sports", price: "$120", original: "$160", rating: "4.8", reviews: "956", badge: "hot", img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" },
-  { name: "Ceramic Coffee Mug Set", category: "Home", price: "$22", original: null, rating: "4.6", reviews: "445", badge: "new", img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" },
-  { name: "Oversized Knit Sweater", category: "Fashion", price: "$55", original: "$80", rating: "4.7", reviews: "1.1k", badge: "sale", img: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&q=80" },
-  { name: "Smart Fitness Tracker", category: "Electronics", price: "$65", original: "$95", rating: "4.8", reviews: "2.1k", badge: "hot", img: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&q=80" },
+  {
+    name: "Premium Wireless Headphones",
+    category: "Electronics",
+    price: "$89",
+    original: "$129",
+    rating: "4.8",
+    reviews: "2.4k",
+    badge: "sale",
+    img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80",
+  },
+  {
+    name: "Casual Linen Summer Dress",
+    category: "Fashion",
+    price: "$45",
+    original: "$65",
+    rating: "4.9",
+    reviews: "1.8k",
+    badge: "hot",
+    img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&q=80",
+  },
+  {
+    name: "Minimalist Desk Lamp",
+    category: "Home",
+    price: "$35",
+    original: null,
+    rating: "4.7",
+    reviews: "892",
+    badge: "new",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+  },
+  {
+    name: "Vitamin C Glow Serum",
+    category: "Beauty",
+    price: "$28",
+    original: "$45",
+    rating: "4.9",
+    reviews: "3.2k",
+    badge: "sale",
+    img: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&q=80",
+  },
+  {
+    name: "Running Sneakers Pro",
+    category: "Sports",
+    price: "$120",
+    original: "$160",
+    rating: "4.8",
+    reviews: "956",
+    badge: "hot",
+    img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80",
+  },
+  {
+    name: "Ceramic Coffee Mug Set",
+    category: "Home",
+    price: "$22",
+    original: null,
+    rating: "4.6",
+    reviews: "445",
+    badge: "new",
+    img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80",
+  },
+  {
+    name: "Oversized Knit Sweater",
+    category: "Fashion",
+    price: "$55",
+    original: "$80",
+    rating: "4.7",
+    reviews: "1.1k",
+    badge: "sale",
+    img: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&q=80",
+  },
+  {
+    name: "Smart Fitness Tracker",
+    category: "Electronics",
+    price: "$65",
+    original: "$95",
+    rating: "4.8",
+    reviews: "2.1k",
+    badge: "hot",
+    img: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&q=80",
+  },
 ];
 
 const flashProducts = [
-  { name: "AirPods Pro", price: "$149", original: "$249", discount: "-40%", img: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=200&q=80" },
-  { name: "Silk Slip Dress", price: "$39", original: "$89", discount: "-56%", img: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=200&q=80" },
-  { name: "Face Mask Kit", price: "$18", original: "$35", discount: "-49%", img: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=200&q=80" },
-  { name: "Yoga Mat Premium", price: "$25", original: "$55", discount: "-55%", img: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&q=80" },
+  {
+    name: "AirPods Pro",
+    price: "$149",
+    original: "$249",
+    discount: "-40%",
+    img: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=200&q=80",
+  },
+  {
+    name: "Silk Slip Dress",
+    price: "$39",
+    original: "$89",
+    discount: "-56%",
+    img: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=200&q=80",
+  },
+  {
+    name: "Face Mask Kit",
+    price: "$18",
+    original: "$35",
+    discount: "-49%",
+    img: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=200&q=80",
+  },
+  {
+    name: "Yoga Mat Premium",
+    price: "$25",
+    original: "$55",
+    discount: "-55%",
+    img: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&q=80",
+  },
 ];
 
 const testimonials = [
-  { text: "Amazing quality and super fast shipping! The dress looks even better in person. Will definitely shop here again!", name: "Sarah Johnson", detail: "Verified Buyer · Fashion", stars: "★★★★★", avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" },
-  { text: "The headphones sound incredible and arrived in perfect condition. Great packaging too. 10/10 recommend!", name: "Mike Chen", detail: "Verified Buyer · Electronics", stars: "★★★★★", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" },
-  { text: "Customer service was outstanding when I had a question about my order. The serum has transformed my skin!", name: "Emma Davis", detail: "Verified Buyer · Beauty", stars: "★★★★★", avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" },
+  {
+    text: "Amazing quality and super fast shipping! The dress looks even better in person. Will definitely shop here again!",
+    name: "Sarah Johnson",
+    detail: "Verified Buyer · Fashion",
+    stars: "★★★★★",
+    avatar:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+  },
+  {
+    text: "The headphones sound incredible and arrived in perfect condition. Great packaging too. 10/10 recommend!",
+    name: "Mike Chen",
+    detail: "Verified Buyer · Electronics",
+    stars: "★★★★★",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
+  },
+  {
+    text: "Customer service was outstanding when I had a question about my order. The serum has transformed my skin!",
+    name: "Emma Davis",
+    detail: "Verified Buyer · Beauty",
+    stars: "★★★★★",
+    avatar:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
+  },
 ];
 
 const features = [
-  { icon: "🚚", title: "Free Shipping", desc: "Free delivery on all orders over $50. Fast and reliable worldwide." },
-  { icon: "↩️", title: "Easy Returns", desc: "30-day hassle-free returns. No questions asked." },
-  { icon: "🔒", title: "Secure Payments", desc: "Your payment info is always protected with bank-level security." },
-  { icon: "🎧", title: "24/7 Support", desc: "Our friendly team is always here to help you anytime." },
+  {
+    icon: "🚚",
+    title: "Free Shipping",
+    desc: "Free delivery on all orders over $50. Fast and reliable worldwide.",
+  },
+  {
+    icon: "↩️",
+    title: "Easy Returns",
+    desc: "30-day hassle-free returns. No questions asked.",
+  },
+  {
+    icon: "🔒",
+    title: "Secure Payments",
+    desc: "Your payment info is always protected with bank-level security.",
+  },
+  {
+    icon: "🎧",
+    title: "24/7 Support",
+    desc: "Our friendly team is always here to help you anytime.",
+  },
 ];
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [cartCount, setCartCount] = useState(0);
-  const [addedProducts, setAddedProducts] = useState({});
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
   const [countdown, setCountdown] = useState({ h: 5, m: 42, s: 17 });
@@ -471,7 +602,10 @@ export default function App() {
       const scrollY = window.scrollY + 120;
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = document.getElementById(sections[i]);
-        if (el && el.offsetTop <= scrollY) { setActiveSection(sections[i]); break; }
+        if (el && el.offsetTop <= scrollY) {
+          setActiveSection(sections[i]);
+          break;
+        }
       }
     };
     window.addEventListener("scroll", handleScroll);
@@ -480,26 +614,31 @@ export default function App() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCountdown(prev => {
+      setCountdown((prev) => {
         let { h, m, s } = prev;
         s--;
-        if (s < 0) { s = 59; m--; }
-        if (m < 0) { m = 59; h--; }
-        if (h < 0) { h = 5; m = 59; s = 59; }
+        if (s < 0) {
+          s = 59;
+          m--;
+        }
+        if (m < 0) {
+          m = 59;
+          h--;
+        }
+        if (h < 0) {
+          h = 5;
+          m = 59;
+          s = 59;
+        }
         return { h, m, s };
       });
     }, 1000);
     return () => clearInterval(timer);
   }, []);
 
-  const handleAddToCart = (i) => {
-    setCartCount(c => c + 1);
-    setAddedProducts(prev => ({ ...prev, [i]: true }));
-    setTimeout(() => setAddedProducts(prev => ({ ...prev, [i]: false })), 1500);
-  };
-
+  
   const pad = (n) => String(n).padStart(2, "0");
-  const isActive = (s) => activeSection === s ? "nav-active" : "";
+  const isActive = (s) => (activeSection === s ? "nav-active" : "");
 
   return (
     <>
@@ -507,40 +646,72 @@ export default function App() {
 
       {/* ANNOUNCEMENT */}
       <div className="announcement">
-        🎉 MEGA SALE — Up to 70% OFF Everything! Free shipping on orders over $50 · Use code: SAVE20
+        🎉 MEGA SALE — Up to 70% OFF Everything! Free shipping on orders over
+        $50 · Use code: SAVE20
       </div>
 
       {/* NAV */}
       <nav className="nav">
         <div className="nav__inner">
-          <a href="#home" className="nav__logo">Shop<span>Bolt</span></a>
+          <a href="#home" className="nav__logo">
+            Shop<span>Bolt</span>
+          </a>
           <div className="nav__search">
             <span className="nav__search-icon">🔍</span>
             <input type="text" placeholder="Search for products, brands..." />
           </div>
           <ul className="nav__links">
-            <li><a href="#categories" className={isActive("categories")}>Categories</a></li>
-            <li><a href="#products" className={isActive("products")}>Products</a></li>
-            <li><a href="#contact" className={isActive("contact")}>Deals</a></li>
+            <li>
+              <a href="#categories" className={isActive("categories")}>
+                Categories
+              </a>
+            </li>
+            <li>
+              <a href="#products" className={isActive("products")}>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className={isActive("contact")}>
+                Deals
+              </a>
+            </li>
           </ul>
           <div className="nav__actions">
             <button className="nav__action-btn">👤</button>
             <button className="nav__action-btn">❤️</button>
-            <button className="nav__action-btn">
+            <button className="nav__action-btn snipcart-checkout">
               🛒
-              {cartCount > 0 && <span className="nav__badge">{cartCount}</span>}
+              <span className="nav__badge snipcart-items-count">0</span>
             </button>
-            <button className={`nav__hamburger ${menuOpen ? "open" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>
-              <span /><span /><span />
+            <button
+              className={`nav__hamburger ${menuOpen ? "open" : ""}`}
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              <span />
+              <span />
+              <span />
             </button>
           </div>
         </div>
       </nav>
       <div className={`nav__mobile-menu ${menuOpen ? "open" : ""}`}>
-        <a href="#categories" onClick={() => setMenuOpen(false)}>Categories</a>
-        <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>Deals</a>
-        <a href="#contact" className="nav__mobile-cta" onClick={() => setMenuOpen(false)}>Shop Now</a>
+        <a href="#categories" onClick={() => setMenuOpen(false)}>
+          Categories
+        </a>
+        <a href="#products" onClick={() => setMenuOpen(false)}>
+          Products
+        </a>
+        <a href="#contact" onClick={() => setMenuOpen(false)}>
+          Deals
+        </a>
+        <a
+          href="#contact"
+          className="nav__mobile-cta"
+          onClick={() => setMenuOpen(false)}
+        >
+          Shop Now
+        </a>
       </div>
 
       {/* HERO */}
@@ -549,12 +720,23 @@ export default function App() {
           <div>
             <div className="hero__badge">🔥 Biggest Sale of the Year</div>
             <h1 className="hero__title">
-              Shop Smart,<br />Save <span>Big</span>,<br />Live Better
+              Shop Smart,
+              <br />
+              Save <span>Big</span>,<br />
+              Live Better
             </h1>
-            <p className="hero__sub">Discover thousands of products across fashion, electronics, beauty, home, and more — all at unbeatable prices with fast delivery.</p>
+            <p className="hero__sub">
+              Discover thousands of products across fashion, electronics,
+              beauty, home, and more — all at unbeatable prices with fast
+              delivery.
+            </p>
             <div className="hero__btns">
-              <a href="#products" className="btn-coral">Shop Now →</a>
-              <a href="#categories" className="btn-outline-white">Browse Categories</a>
+              <a href="#products" className="btn-coral">
+                Shop Now →
+              </a>
+              <a href="#categories" className="btn-outline-white">
+                Browse Categories
+              </a>
             </div>
             <div className="hero__stats">
               {[
@@ -594,11 +776,17 @@ export default function App() {
               <span className="section-eyebrow">Browse By</span>
               <h2 className="section-title">Top Categories</h2>
             </div>
-            <a href="#products" className="section-link">View All →</a>
+            <a href="#products" className="section-link">
+              View All →
+            </a>
           </div>
           <div className="categories-grid">
             {categories.map((c, i) => (
-              <a href="#products" className={`category-card ${c.class}`} key={i}>
+              <a
+                href="#products"
+                className={`category-card ${c.class}`}
+                key={i}
+              >
                 <span className="category-card__icon">{c.icon}</span>
                 <span className="category-card__name">{c.name}</span>
               </a>
@@ -608,22 +796,37 @@ export default function App() {
       </section>
 
       {/* FEATURED PRODUCTS */}
-      <section id="products" className="section" style={{ background: "var(--light)" }}>
+      <section
+        id="products"
+        className="section"
+        style={{ background: "var(--light)" }}
+      >
         <div className="section-inner">
           <div className="section-header">
             <div>
               <span className="section-eyebrow">Hand-Picked</span>
               <h2 className="section-title">Featured Products</h2>
             </div>
-            <a href="#categories" className="section-link">View All Products →</a>
+            <a href="#categories" className="section-link">
+              View All Products →
+            </a>
           </div>
           <div className="products-grid">
             {products.map((p, i) => (
               <div className="product-card" key={i}>
                 <div className="product-card__img-wrap">
-                  <img src={p.img} alt={p.name} className="product-card__img" loading="lazy" />
+                  <img
+                    src={p.img}
+                    alt={p.name}
+                    className="product-card__img"
+                    loading="lazy"
+                  />
                   <span className={`product-card__badge badge-${p.badge}`}>
-                    {p.badge === "sale" ? "SALE" : p.badge === "new" ? "NEW" : "🔥 HOT"}
+                    {p.badge === "sale"
+                      ? "SALE"
+                      : p.badge === "new"
+                        ? "NEW"
+                        : "🔥 HOT"}
                   </span>
                   <button className="product-card__wishlist">♡</button>
                 </div>
@@ -637,13 +840,24 @@ export default function App() {
                   <div className="product-card__price-row">
                     <div>
                       <span className="product-card__price">{p.price}</span>
-                      {p.original && <span className="product-card__original">{p.original}</span>}
+                      {p.original && (
+                        <span className="product-card__original">
+                          {p.original}
+                        </span>
+                      )}
                     </div>
                     <button
-                      className={`product-card__cart ${addedProducts[i] ? "added" : ""}`}
-                      onClick={() => handleAddToCart(i)}
+                      className="snipcart-add-item product-card__cart"
+                      data-item-id={p.name
+                        .toLowerCase()
+                        .replace(/[^a-z0-9]+/g, "-")}
+                      data-item-name={p.name}
+                      data-item-price={p.price.replace("$", "")}
+                      data-item-url="/"
+                      data-item-description={p.category}
+                      data-item-image={p.img}
                     >
-                      {addedProducts[i] ? "✓ Added" : "+ Cart"}
+                      + Cart
                     </button>
                   </div>
                 </div>
@@ -658,9 +872,17 @@ export default function App() {
         <div className="section-inner">
           <div className="flash-sale">
             <div>
-              <div className="flash-sale__eyebrow">⚡ Flash Sale — Limited Time</div>
-              <h2 className="flash-sale__title">Up to <span>70% OFF</span><br />Today Only!</h2>
-              <p className="flash-sale__sub">Hurry! These deals won't last. Add to cart before time runs out.</p>
+              <div className="flash-sale__eyebrow">
+                ⚡ Flash Sale — Limited Time
+              </div>
+              <h2 className="flash-sale__title">
+                Up to <span>70% OFF</span>
+                <br />
+                Today Only!
+              </h2>
+              <p className="flash-sale__sub">
+                Hurry! These deals won't last. Add to cart before time runs out.
+              </p>
               <div className="countdown">
                 {[
                   { val: pad(countdown.h), label: "Hours" },
@@ -677,14 +899,30 @@ export default function App() {
             <div className="flash-products">
               {flashProducts.map((p, i) => (
                 <div className="flash-product" key={i}>
-                  <img src={p.img} alt={p.name} className="flash-product__img" loading="lazy" />
+                  <img
+                    src={p.img}
+                    alt={p.name}
+                    className="flash-product__img"
+                    loading="lazy"
+                  />
                   <div>
                     <div className="flash-product__name">{p.name}</div>
-                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", margin: "0.2rem 0" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        margin: "0.2rem 0",
+                      }}
+                    >
                       <span className="flash-product__price">{p.price}</span>
-                      <span className="flash-product__original">{p.original}</span>
+                      <span className="flash-product__original">
+                        {p.original}
+                      </span>
                     </div>
-                    <span className="flash-product__discount">{p.discount}</span>
+                    <span className="flash-product__discount">
+                      {p.discount}
+                    </span>
                   </div>
                 </div>
               ))}
@@ -716,8 +954,19 @@ export default function App() {
             <h2 className="section-title">Our Brands</h2>
           </div>
           <div className="brands-row">
-            {["ZARA", "SONY", "NIKE", "L'ORÉAL", "IKEA", "APPLE", "SAMSUNG", "UNIQLO"].map((b, i) => (
-              <div className="brand-item" key={i}>{b}</div>
+            {[
+              "ZARA",
+              "SONY",
+              "NIKE",
+              "L'ORÉAL",
+              "IKEA",
+              "APPLE",
+              "SAMSUNG",
+              "UNIQLO",
+            ].map((b, i) => (
+              <div className="brand-item" key={i}>
+                {b}
+              </div>
             ))}
           </div>
         </div>
@@ -736,7 +985,11 @@ export default function App() {
                 <div className="testi-card__stars">{t.stars}</div>
                 <p className="testi-card__text">"{t.text}"</p>
                 <div className="testi-card__author">
-                  <img src={t.avatar} alt={t.name} className="testi-card__avatar" />
+                  <img
+                    src={t.avatar}
+                    alt={t.name}
+                    className="testi-card__avatar"
+                  />
                   <div>
                     <div className="testi-card__name">{t.name}</div>
                     <div className="testi-card__detail">{t.detail}</div>
@@ -753,15 +1006,44 @@ export default function App() {
         <div className="section-inner">
           <div className="newsletter">
             <h2 className="newsletter__title">Get Exclusive Deals! 🎁</h2>
-            <p className="newsletter__sub">Subscribe and be the first to know about flash sales, new arrivals, and special promos.</p>
+            <p className="newsletter__sub">
+              Subscribe and be the first to know about flash sales, new
+              arrivals, and special promos.
+            </p>
             {subscribed ? (
-              <div style={{ background: "rgba(255,255,255,0.2)", borderRadius: "50px", padding: "1rem 2rem", display: "inline-block", color: "var(--white)", fontFamily: "var(--font-head)", fontWeight: "800", fontSize: "1rem" }}>
+              <div
+                style={{
+                  background: "rgba(255,255,255,0.2)",
+                  borderRadius: "50px",
+                  padding: "1rem 2rem",
+                  display: "inline-block",
+                  color: "var(--white)",
+                  fontFamily: "var(--font-head)",
+                  fontWeight: "800",
+                  fontSize: "1rem",
+                }}
+              >
                 🎉 You're subscribed! Watch your inbox for deals.
               </div>
             ) : (
-              <form className="newsletter__form" onSubmit={(e) => { e.preventDefault(); setSubscribed(true); }}>
-                <input className="newsletter__input" type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} required />
-                <button type="submit" className="newsletter__btn">Subscribe 🚀</button>
+              <form
+                className="newsletter__form"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  setSubscribed(true);
+                }}
+              >
+                <input
+                  className="newsletter__input"
+                  type="email"
+                  placeholder="Enter your email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+                <button type="submit" className="newsletter__btn">
+                  Subscribe 🚀
+                </button>
               </form>
             )}
           </div>
@@ -772,8 +1054,13 @@ export default function App() {
       <footer className="footer">
         <div className="footer__grid">
           <div>
-            <a href="#home" className="footer__logo">Shop<span>Bolt</span></a>
-            <p className="footer__about">Your one-stop shop for fashion, electronics, beauty, home, and more. Fast shipping, easy returns, and unbeatable prices.</p>
+            <a href="#home" className="footer__logo">
+              Shop<span>Bolt</span>
+            </a>
+            <p className="footer__about">
+              Your one-stop shop for fashion, electronics, beauty, home, and
+              more. Fast shipping, easy returns, and unbeatable prices.
+            </p>
             <div className="footer__social">
               <a href="#">f</a>
               <a href="#">ig</a>
@@ -784,39 +1071,73 @@ export default function App() {
           <div>
             <h6 className="footer__heading">Shop</h6>
             <ul className="footer__links">
-              <li><a href="#categories">Fashion</a></li>
-              <li><a href="#categories">Electronics</a></li>
-              <li><a href="#categories">Home & Living</a></li>
-              <li><a href="#categories">Beauty</a></li>
-              <li><a href="#categories">Sports</a></li>
+              <li>
+                <a href="#categories">Fashion</a>
+              </li>
+              <li>
+                <a href="#categories">Electronics</a>
+              </li>
+              <li>
+                <a href="#categories">Home & Living</a>
+              </li>
+              <li>
+                <a href="#categories">Beauty</a>
+              </li>
+              <li>
+                <a href="#categories">Sports</a>
+              </li>
             </ul>
           </div>
           <div>
             <h6 className="footer__heading">Support</h6>
             <ul className="footer__links">
-              <li><a href="#contact">Track Order</a></li>
-              <li><a href="#contact">Returns</a></li>
-              <li><a href="#contact">FAQs</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-              <li><a href="#contact">Live Chat</a></li>
+              <li>
+                <a href="#contact">Track Order</a>
+              </li>
+              <li>
+                <a href="#contact">Returns</a>
+              </li>
+              <li>
+                <a href="#contact">FAQs</a>
+              </li>
+              <li>
+                <a href="#contact">Contact Us</a>
+              </li>
+              <li>
+                <a href="#contact">Live Chat</a>
+              </li>
             </ul>
           </div>
           <div>
             <h6 className="footer__heading">Company</h6>
             <ul className="footer__links">
-              <li><a href="#home">About Us</a></li>
-              <li><a href="#home">Careers</a></li>
-              <li><a href="#home">Press</a></li>
-              <li><a href="#home">Privacy Policy</a></li>
-              <li><a href="#home">Terms of Service</a></li>
+              <li>
+                <a href="#home">About Us</a>
+              </li>
+              <li>
+                <a href="#home">Careers</a>
+              </li>
+              <li>
+                <a href="#home">Press</a>
+              </li>
+              <li>
+                <a href="#home">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#home">Terms of Service</a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="footer__bottom">
-          <p className="footer__copy">© {new Date().getFullYear()} ShopBolt. All rights reserved.</p>
+          <p className="footer__copy">
+            © {new Date().getFullYear()} ShopBolt. All rights reserved.
+          </p>
           <div className="footer__payments">
             {["VISA", "MC", "AMEX", "PayPal", "GCash"].map((p, i) => (
-              <span key={i} className="footer__payment">{p}</span>
+              <span key={i} className="footer__payment">
+                {p}
+              </span>
             ))}
           </div>
         </div>
